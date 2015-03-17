@@ -79,16 +79,6 @@ Import
 
 You can also use this same approach to append new data to an existing table.
 
----
-layout: lesson
-root: ../..
-title: "sql-human_atlas"
----
-
-Contributors: Damiano Piovesan
-
----
-
 
 Basic queries
 -------------
@@ -301,7 +291,7 @@ We can also find out how many patients are affected.
 There are many other aggregate functions included in SQL including
 MAX, MIN, and AVG.
 
-***From the surveys table, can we use one query to output the total number of affected patients,
+***From the cancer table, can we use one query to output the total number of affected patients,
    the average number, and the min and max number?***
 
 Now, let's use the tissue table and see how many genes were counted for each cell type. 
